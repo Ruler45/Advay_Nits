@@ -1,11 +1,14 @@
-import Link from "next/link";
+"use client";
+
+// import Link from "next/link";
+import styles from "./Home.module.scss";
 
 const Home = () => {
   return (
-    <main>
-      <h1>This is home page</h1>
-      <Link href="/about">About</Link>
-    </main>
+    <>
+      <main className={`${styles.main}`}></main>
+      <div id="about"></div>
+    </>
   );
 };
 
