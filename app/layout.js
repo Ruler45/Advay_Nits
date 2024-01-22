@@ -1,7 +1,8 @@
 import "./globals.scss";
 import { Inter } from "next/font/google";
 // import connectToDb from "@/lib/db";
-import Navbar from "./components/Shared/NavBar/Navbar";
+// eslint-disable-next-line import/extensions
+import Navbar from "./components/Shared/NavBar/Navbar.jsx";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
